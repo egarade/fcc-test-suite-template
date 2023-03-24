@@ -8,13 +8,24 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <header id="header"> <nav id="nav-bar">
-      <a href="#" class="nav-link"></a>
-      <a href="#" class="nav-link"></a>
-      <a href="#" class="nav-link"></a>
-    </nav> <img id="header-img" src="" alt=""></header>
+    <header id="header">
+      <nav id="nav-bar">
+      <a href="#form" class="nav-link"></a>
+      <a href="#form" class="nav-link"></a>
+      <a href="#form" class="nav-link"></a>
+    </nav>
+    <div class="small-container"> 
+      <div class="media">
+    <img id="header-img" src="" alt=""></header>
     <video src="#" id="video">You watch an embedded video</video>
-    <form id="form"></form>
+</div>
+    </div>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+      <input type="email" id="email" placeholder="please input your email address" required>
+
+      <input type="submit" id="submit" >
+    </form>
     <script  src="js/index.js"></script>
   </body>
 </html>
